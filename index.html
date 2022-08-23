@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/141b59ba05.js" crossorigin="anonymous"></script>
+
+    <title>Best-Five Players</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .marginr-Padding {
+
+            margin-left: 10px;
+            margin-right: 20px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+
+        }
+
+        .butten-center {
+            margin-left: 26%;
+        }
+
+        body {
+            background-image: linear-gradient(rgb(17, 16, 16), rgb(44, 44, 104))
+        }
+
+        .card-baground {
+            background-image: linear-gradient(rgb(102, 17, 17), rgb(33, 33, 66));
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <header class="marginr-Padding">
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-6">
+
+                <img src="./image/messi_graphic.jpeg" class="  img-fluid d-block w-100 rounded" alt="...">
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 card-baground mr-3 rounded">
+                <h1 class="fs-1 text-center  text-white"><b>Top Best Five Players </b></h1>
+                <p class="fs-5 text-center text-white">In football, there have been few truly magnificent players.
+
+                    Players like Alfredo di Stefano and Pelé, who captivated the world with their unbelievable
+                    goalscoring ability in the early days of professional football.</p>
+                <br>
+                <h3 class="text-center  text-white ">My First Favorite Player Messi</h3>
+
+                <hr>
+
+                <div class="row  text-white ">
+
+                    <div class="col-lg-6">
+                        <ul class="fs-4">
+                            <li>Most goals for a single club</li>
+                            <li> 4 Awards in the same season.</li>
+                            <li> most Ballon d’Or awards</li>
+                            <li>Most European Golden Boots</li>
+                            <li>Most goals in a calendar year</li>
+
+                        </ul>
+
+                    </div>
+
+                    <br><br>
+
+                    <div class="col-lg-6">
+
+                        <img src="./image/messi-ballons'or.jfif" class="  img-fluid d-block w-100 h-auto rounded"
+                            alt="...">
+                    </div>
+
+
+
+
+
+
+
+                </div>
+
+
+            </div>
+    </header>
+
+    <main>
+
+        <section class="marginr-Padding">
+
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-5">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./image/player4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body card-baground text-white">
+                            <h5 id="player-one" class="card-title fs-3"><b>Ronald Araújo</b></h5>
+                            <p><b>Goal : 87</b> <span class="fs-2"><i class="fa-solid fa-football"></i> </span>
+                                <span class="ml-3"><b>125 Assist</b></span>
+                            </p>
+                            <button id="btn-Araújo" type="button" class="btn btn-outline-danger btn-lg">SELECT </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./image/player2.jfif" class="card-img-top" alt="...">
+                        <div class="card-body card-baground text-white">
+                            <h5 id="player-two" class="card-title fs-3"><b>Robert Lewandowski</b></h5>
+                            <p><b>Goal : 613</b> <span class="fs-2"><i class="fa-solid fa-football"></i> </span>
+                                <span class="ml-3"><b>180 Assist</b></span>
+                            </p>
+                            <button id="btn-Lewandowski" type="button" class="btn btn-outline-danger btn-lg">SELECT
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./image/player3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body card-baground text-white">
+                            <h5 id="player-three" class="card-title fs-3"><b>Pablo Martín Gavira</b></h5>
+                            <p><b>Goal : 147</b> <span class="fs-2"><i class="fa-solid fa-football"></i> </span>
+                                <span class="ml-3"><b>127 Assist</b></span>
+                            </p>
+
+                            <button id="btn-Gavira" type="button" class="btn btn-outline-danger btn-lg">SELECT </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col rounded card-baground text-white">
+
+                    <div class="card-bod">
+                        <h3 class="text-white text-center">Selected - V</h3>
+
+                        <ol class="text-white fs-3" id="all-players"></ol>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+        </section>
+
+        <section class="marginr-Padding">
+
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-5">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./image/player10.jpg" class="card-img-top" alt="...">
+                        <div class="card-body card-baground text-white">
+                            <h5 id="player-four" class="card-title fs-3"><b>Memphis Depay</b></h5>
+                            <p><b>Goal : 57</b> <span class="fs-2"><i class="fa-solid fa-football"></i> </span>
+                                <span class="ml-3"><b>67 Assist</b></span>
+                            </p>
+
+                            <button id="btn-depay" type="button" class="btn btn-outline-danger btn-lg">SELECT </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./image/player9.jpg" class="card-img-top" alt="...">
+                        <div class="card-body card-baground text-white">
+                            <h5 id="player-five" class="card-title fs-3"><b>Pedro González</b></h5>
+                            <p><b>Goal : 77</b> <span class="fs-2"><i class="fa-solid fa-football"></i> </span>
+                                <span class="ml-3"><b>37 Assist</b></span>
+                            </p>
+
+                            <button id="btn-Pedro" type="button" class="btn btn-outline-danger btn-lg">SELECT </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 card-baground text-white">
+                        <img src="./image/messi.jfif" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 id="player-six" class="card-title fs-3"><b>Lionel Messi</b></h5>
+                            <p><b>Goal : 777</b> <span class="fs-2"><i class="fa-solid fa-football"></i> </span>
+                                <span class="ml-3"><b>367 Assist</b></span>
+                            </p>
+
+                            <button id="btn-messi" type="button" class="btn btn-outline-danger btn-lg ">SELECT
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col rounded card-baground text-white">
+
+                    <div class="card-body">
+                        <h3 class="card-title  text-center text-white">Budget</h3>
+                        <br>
+                        <p><span class="fs-5 text-white">Per Player : </span> <input class="p-2 rounded" type="number"
+                                name="" id="player-input" placeholder="per player"></p>
+                        <!-- Calculate -->
+                        <button id="btn-Calculate" type="button"
+                            class="btn btn-outline-primary btn-lg butten-center ">Calculate</button>
+
+                        <br>
+                        <br>
+                        <h5 class="text-white fs-4">Player Expenses: $<span id="Player-Expense">0.00</span></h5>
+
+                        <!-- Manager -->
+                        <br>
+                        <p><span class="fs-5 text-white">Manager : </span> <input class="p-2 rounded" type="number"
+                                name="" id="manager-input" placeholder="Manager"></p>
+
+                        <!-- Coach -->
+                        <p class="m-3"><span class="fs-5 text-white">Coach :: </span> <input class="p-2 rounded"
+                                type="number" name="" id="btn-Coach" placeholder="Coach"></p>
+                        <button id="btn-CalculateTotal" type="button"
+                            class="btn btn-outline-danger btn-lg butten-center ">Calculate Total</button>
+                        <br>
+                        <br>
+                        <h5 class="text-white fs-4">Total: $ <span id="total-cost">0.00</span></h5>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+        </section>
+    </main>
+
+    <footer class=" h-none bg-dark rounded mt-5 d-flex justify-content-center align-items-center">
+        <div class="text-cente">
+
+            <p class="text-white fs-3">Copyright @ 2022 All Rights Reserved.</p>
+            <span>
+                <i class="fa-brands fa-facebook fs-1 text-primary p-2"></i>
+                <i class="fa-brands fa-square-twitter fs-1 text-info p-2"></i>
+                <i class="fa-brands fa-linkedin fs-1 text-primary p-2"></i>
+                <i class="fa-brands fa-tiktok fs-1 text-danger p-2"></i>
+            </span>
+
+        </div>
+
+        <br><br><br><br><br>
+
+    </footer>
+
+
+
+    <script src="./SCRIPT/players.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
